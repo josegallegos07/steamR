@@ -1,0 +1,16 @@
+Package: steam
+Title: An interface to Steam's Web API
+Description: This package provides a wrapper around Steam's
+    Web API.
+Version: 0.0.1
+Authors@R: 'Jose Gallegos <josegallegos07@gmail.com> [aut,cre]'
+Depends:
+    R (>= 3.0.0)
+Imports:
+    reshape,
+    RCurl,
+    RJSONIO
+Suggests:
+    testthat
+License: GPL-3
+LazyData: true
