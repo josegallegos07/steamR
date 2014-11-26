@@ -1,0 +1,1 @@
+STEAM_API_APP_LIST <- "http://api.steampowered.com/ISteamApps/GetAppList/v2"
