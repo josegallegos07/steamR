@@ -1,6 +1,6 @@
 Package: steam
 Title: An interface to Steam's Web API
-Description: This package provides a wrapper around Steam's
+Description: This package provides a wrapper for Steam's
     Web API.
 Version: 1.0.0
 Authors@R: 'Jose Gallegos <josegallegos07@gmail.com> [aut,cre]'
