@@ -2,7 +2,7 @@
 #'
 #' Get the global achievement percentages for an app
 #'
-#' @param app_id The AppID of the game.
+#' @param app_id The app's AppID.
 #'
 #' @return The latest global achievement percentages for an app.
 #'

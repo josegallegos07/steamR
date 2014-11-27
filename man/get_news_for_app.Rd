@@ -6,7 +6,7 @@
 get_news_for_app(app_id, count, max_length)
 }
 \arguments{
-\item{app_id}{The AppID of the game.}
+\item{app_id}{The app's AppID.}
 
 \item{count}{The number of news entries to return.
 Returns all news entries if unspecified.}
@@ -26,7 +26,7 @@ a UNIX timestamp date, an author, and the feedname.
 Get the latest news for an app.
 }
 \examples{
-# get the most recent Binding of Isaac: Rebirth news post
+# get the most recent The Binding of Isaac: Rebirth news post
 get_news_for_app(250900, count = 1)
 
 # get all SteamWorld Dig news posts

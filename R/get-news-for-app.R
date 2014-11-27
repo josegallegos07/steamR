@@ -2,7 +2,7 @@
 #'
 #' Get the latest news for an app.
 #'
-#' @param app_id The AppID of the game.
+#' @param app_id The app's AppID.
 #' @param count The number of news entries to return. 
 #'   Returns all news entries if unspecified.
 #' @param max_length The maximum length of each news entry.
@@ -17,7 +17,7 @@
 #'
 #' @examples
 #'
-#' # get the most recent Binding of Isaac: Rebirth news post
+#' # get the most recent The Binding of Isaac: Rebirth news post
 #' get_news_for_app(250900, count = 1)
 #'
 #' # get all SteamWorld Dig news posts

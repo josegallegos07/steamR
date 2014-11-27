@@ -6,7 +6,7 @@
 get_global_achievement_percentages_for_app(app_id)
 }
 \arguments{
-\item{app_id}{The AppID of the game.}
+\item{app_id}{The app's AppID.}
 }
 \value{
 The latest global achievement percentages for an app.

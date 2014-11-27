@@ -8,6 +8,9 @@ get_app_list()
 \value{
 the complete app list available in the steam
   store
+
+Each item in the resulting list contains the app's AppID
+   and the app's name.
 }
 \description{
 Pull the complete app list. Each item contains the
