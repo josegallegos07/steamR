@@ -8,7 +8,6 @@
 #'   store
 
 get_app_list <- function() {
-  raw_json = RCurl::getURI(STEAM_API_APP_LIST)
-  app_list = RJSONIO::fromJSON(raw_json)$applist$apps
-  return (app_list)
+  json = get_json(STEAM_API_APP_LIST)
+  return (json$applist$apps)
 }
