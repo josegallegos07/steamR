@@ -1,0 +1,5 @@
+# steam 1.0.0
+
+* `get_app_list` returns the complete app list available in the steam store.
+
+* `get_news_for_app` function returns the latest news for an app.
