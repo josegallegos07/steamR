@@ -12,8 +12,8 @@
 #'
 #' Each item in the resulting list contains: a gid, a title, a url, 
 #' a shortened excerpt of the contents (to \code{max_length} characters), 
-#' terminated by "..." if longer than \code{max_length}, feed
-#' a feedlabel, a UNIX timestamp date, an author, and the feedname.
+#' terminated by "..." if longer than \code{max_length}, a feed label
+#' a UNIX timestamp date, an author, and the feedname.
 #'
 #' @examples
 #' # get the most recent Binding of Isaac: Rebirth news post
@@ -23,7 +23,7 @@ get_news_for_app <- function(app_id, count, max_length) {
   if (missing(count)) {
     count = ""
   } else {
-  	count = paste(ARG_COUNT, count, sep = "")
+    count = paste(ARG_COUNT, count, sep = "")
   }
   if (missing(max_length)) {
     max_length = ""
