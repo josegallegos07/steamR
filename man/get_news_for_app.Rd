@@ -29,7 +29,7 @@ Get the latest news for an app.
 # get the most recent Binding of Isaac: Rebirth news post
 get_news_for_app(250900, count = 1)
 
-# get the all SteamWorld Dig news posts
+# get all SteamWorld Dig news posts
 get_news_for_app(252410)
 }
 
