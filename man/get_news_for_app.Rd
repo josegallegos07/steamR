@@ -19,8 +19,8 @@ The latest news of a game specified by its AppID.
 
 Each item in the resulting list contains: a gid, a title, a url,
 a shortened excerpt of the contents (to \code{max_length} characters),
-terminated by "..." if longer than \code{max_length}, feed
-a feedlabel, a UNIX timestamp date, an author, and the feedname.
+terminated by "..." if longer than \code{max_length}, a feed label
+a UNIX timestamp date, an author, and the feedname.
 }
 \description{
 Get the latest news for an app.
@@ -28,5 +28,8 @@ Get the latest news for an app.
 \examples{
 # get the most recent Binding of Isaac: Rebirth news post
 get_news_for_app(250900, count = 1)
+
+# get the all SteamWorld Dig news posts
+get_news_for_app(252410)
 }
 

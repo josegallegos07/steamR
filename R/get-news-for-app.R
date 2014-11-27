@@ -16,8 +16,12 @@
 #' a UNIX timestamp date, an author, and the feedname.
 #'
 #' @examples
+#'
 #' # get the most recent Binding of Isaac: Rebirth news post
 #' get_news_for_app(250900, count = 1)
+#'
+#' # get all SteamWorld Dig news posts
+#' get_news_for_app(252410)
 
 get_news_for_app <- function(app_id, count, max_length) {
   if (missing(count)) {
@@ -31,7 +35,7 @@ get_news_for_app <- function(app_id, count, max_length) {
     max_length = paste(ARG_MAX_LENGTH, max_length, sep = "")
   }
   args = paste(ARG_APP_ID, app_id, count, max_length, ARG_FORMAT, sep = "")
-  url = paste(STEAM_API_NEWS, args, sep= "")
+  url = paste(STEAM_API_NEWS, args, sep = "")
   json = get_json(url)
   return (json$appnews$newsitems)
 }
