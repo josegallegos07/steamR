@@ -2,7 +2,7 @@
 
 `steam` provides an [R](http://www.r-project.org/) wrapper around [Steam's Web API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
 
-The ultimate aim of `steam` is to allow access to the all juicy data available on [Steam](http://steampowered.com) and to pave the way for some neat analysis.
+The ultimate aim of `steam` is to allow access to the all juicy data available on [Steam](http://steampowered.com) and to pave the way for some neat analyses.
 
 ## Installation
 
