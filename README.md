@@ -20,6 +20,5 @@ TBD.
 ## TODO
 
 1. Usage examples  
-2. Tests  
-3. All interfaces & methods that require a `Steam Web API Key`
-4. Travis CI setup
+2. All interfaces & methods that require a `Steam Web API Key`
+3. Travis CI setup

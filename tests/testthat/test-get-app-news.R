@@ -1,0 +1,1 @@
+context("get app news")
