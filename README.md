@@ -1,6 +1,6 @@
 # steam
 
-[![Build Status](https://travis-ci.org/josegallegos07/steam.svg)](https://travis-ci.org/josegallegos07/steam)
+[![Build Status](https://travis-ci.org/josegallegos07/steam.svg?branch=master)](https://travis-ci.org/josegallegos07/steam)
 
 `steam` provides an [R](http://www.r-project.org/) wrapper for [Steam's Web API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
 
