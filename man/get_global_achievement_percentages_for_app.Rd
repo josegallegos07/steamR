@@ -15,7 +15,7 @@ Each item in the resulting list contains the achievement name
    and the percentage.
 }
 \description{
-Get the global achievement percentages for an app
+Get the global achievement percentages for an app.
 }
 \examples{
 # get global achievement percentages for Super Meat Boy

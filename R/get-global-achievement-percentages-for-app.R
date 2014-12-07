@@ -1,6 +1,6 @@
 #' Get Global Achievement Percentages for App
 #'
-#' Get the global achievement percentages for an app
+#' Get the global achievement percentages for an app.
 #'
 #' @export
 #' @param app_id The app's AppID.
