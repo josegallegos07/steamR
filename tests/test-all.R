@@ -1,4 +1,4 @@
 library(testthat)
-library(steam)
+library(steamR)
 
-test_check("steam")
+test_check("steamR")

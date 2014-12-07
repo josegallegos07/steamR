@@ -1,4 +1,4 @@
-# steam 1.0.0
+# steamR 1.0.0
 
 * `get_app_list` returns the complete app list available in the steam store.
 

@@ -1,10 +1,10 @@
 # steam
 
-[![Build Status](https://travis-ci.org/josegallegos07/steam.svg?branch=master)](https://travis-ci.org/josegallegos07/steam)
+[![Build Status](https://travis-ci.org/josegallegos07/steamR.svg?branch=master)](https://travis-ci.org/josegallegos07/steamR)
 
-`steam` provides an [R](http://www.r-project.org/) wrapper for [Steam's Web API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
+`steamR` provides an [R](http://www.r-project.org/) wrapper for [Steam's Web API](https://developer.valvesoftware.com/wiki/Steam_Web_API).
 
-The ultimate aim of `steam` is to allow access to the all juicy data available on [Steam](http://steampowered.com) and to pave the way for some neat analyses.
+The ultimate aim of `steamR` is to allow access to the all juicy data available on [Steam](http://steampowered.com) and to pave the way for some neat analyses.
 
 ## Installation
 
@@ -13,7 +13,7 @@ The ultimate aim of `steam` is to allow access to the all juicy data available o
 Install the latest stable development version from github using [devtools](https://github.com/hadley/devtools):
 
 ### 
-     devtools::install_github("josegallegos07/steam")
+     devtools::install_github("josegallegos07/steamR")
 
 ### CRAN
 
