@@ -28,15 +28,15 @@ get_news_for_app <- function(app_id, count, max_length) {
   if (missing(count)) {
     count = ""
   } else {
-    count = paste(ARG_COUNT, count, sep = "")
+    count = paste0(ARG_COUNT, count)
   }
   if (missing(max_length)) {
     max_length = ""
   } else {
-    max_length = paste(ARG_MAX_LENGTH, max_length, sep = "")
+    max_length = paste0(ARG_MAX_LENGTH, max_length)
   }
-  args = paste(ARG_APP_ID, app_id, count, max_length, ARG_FORMAT, sep = "")
-  url = paste(STEAM_API_NEWS, args, sep = "")
+  args = paste0(ARG_APP_ID, app_id, count, max_length, ARG_FORMAT)
+  url = paste0(STEAM_API_NEWS, args)
   json = get_json(url)
   return (json$appnews$newsitems)
 }

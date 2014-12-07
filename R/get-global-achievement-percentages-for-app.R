@@ -16,8 +16,8 @@
 #' get_global_achievement_percentages_for_app(40800)
 
 get_global_achievement_percentages_for_app <- function(app_id) {
-  args = paste(ARG_GAME_ID, app_id, ARG_FORMAT, sep = "")
-  url = paste(STEAM_API_GLOBAL_ACHIEVEMENT, args, sep = "")
+  args = paste0(ARG_GAME_ID, app_id, ARG_FORMAT)
+  url = paste0(STEAM_API_GLOBAL_ACHIEVEMENT, args)
   json = get_json(url)
   return (json$achievementpercentages$achievements)
 }
