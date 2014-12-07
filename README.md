@@ -1,4 +1,4 @@
-# steam
+# steamR
 
 [![Build Status](https://travis-ci.org/josegallegos07/steamR.svg?branch=master)](https://travis-ci.org/josegallegos07/steamR)
 
