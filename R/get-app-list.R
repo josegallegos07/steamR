@@ -4,6 +4,7 @@
 #'   title and app ID of each program available in the 
 #'   steam store. 
 #'
+#' @export
 #' @return the complete app list available in the steam
 #'   store
 #'

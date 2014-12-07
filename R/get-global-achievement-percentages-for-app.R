@@ -2,6 +2,7 @@
 #'
 #' Get the global achievement percentages for an app
 #'
+#' @export
 #' @param app_id The app's AppID.
 #'
 #' @return The latest global achievement percentages for an app.

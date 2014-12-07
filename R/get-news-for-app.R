@@ -2,6 +2,7 @@
 #'
 #' Get the latest news for an app.
 #'
+#' @export
 #' @param app_id The app's AppID.
 #' @param count The number of news entries to return. 
 #'   Returns all news entries if unspecified.
