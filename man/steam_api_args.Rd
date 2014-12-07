@@ -8,8 +8,10 @@
 \alias{ARG_MAX_LENGTH}
 \alias{steam_api_args}
 \title{Steam Web API service definition argument constants}
-\format{\preformatted{ chr "?appid="
-}}
+\format{a character string}
+\source{
+\url{https://developer.valvesoftware.com/wiki/Steam_Web_API}
+}
 \usage{
 ARG_APP_ID
 
@@ -23,6 +25,10 @@ ARG_FORMAT
 }
 \description{
 Service definition argument constants for Steam Web API
+}
+\seealso{
+\code{\link{steam_api_service_definitions}} for service definition
+   constants.
 }
 \keyword{datasets}
 

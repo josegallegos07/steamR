@@ -1,9 +1,14 @@
 #' Steam Web API service definition constants
 #'
-#' Service definition constants for Steam Web API
+#' Service definition constants for Steam Web API.
 #'
 #' @name steam_api_service_definitions
+#' @format a character string
+#' @source \url{https://developer.valvesoftware.com/wiki/Steam_Web_API}
+#' @seealso \code{\link{steam_api_args}} for service definition
+#'   argument constants.
 NULL
+
 
 #' @export
 #' @name steam_api_service_definitions
@@ -22,6 +27,10 @@ STEAM_API_GLOBAL_ACHIEVEMENT <- "http://api.steampowered.com/ISteamUserStats/Get
 #' Service definition argument constants for Steam Web API
 #'
 #' @name steam_api_args
+#' @format a character string
+#' @source \url{https://developer.valvesoftware.com/wiki/Steam_Web_API}
+#' @seealso \code{\link{steam_api_service_definitions}} for service definition
+#'    constants.
 NULL
 
 #' @export

@@ -6,8 +6,10 @@
 \alias{STEAM_API_NEWS}
 \alias{steam_api_service_definitions}
 \title{Steam Web API service definition constants}
-\format{\preformatted{ chr "http://api.steampowered.com/ISteamApps/GetAppList/v2/"
-}}
+\format{a character string}
+\source{
+\url{https://developer.valvesoftware.com/wiki/Steam_Web_API}
+}
 \usage{
 STEAM_API_APP_LIST
 
@@ -16,7 +18,11 @@ STEAM_API_NEWS
 STEAM_API_GLOBAL_ACHIEVEMENT
 }
 \description{
-Service definition constants for Steam Web API
+Service definition constants for Steam Web API.
+}
+\seealso{
+\code{\link{steam_api_args}} for service definition
+  argument constants.
 }
 \keyword{datasets}
 
