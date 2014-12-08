@@ -21,4 +21,7 @@ Get the global achievement percentages for an app.
 # get global achievement percentages for Super Meat Boy
 get_global_achievement_percentages_for_app(40800)
 }
+\seealso{
+\code{\link{get_app_list}} to get a list of app names & id's.
+}
 

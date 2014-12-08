@@ -23,6 +23,8 @@
 #'
 #' # get all SteamWorld Dig news posts
 #' get_news_for_app(252410)
+#'
+#' @seealso \code{\link{get_app_list}} to get a list of app names & id's.
 
 get_news_for_app <- function(app_id, count, max_length) {
   if (missing(count)) {

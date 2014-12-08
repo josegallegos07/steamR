@@ -32,4 +32,7 @@ get_news_for_app(250900, count = 1)
 # get all SteamWorld Dig news posts
 get_news_for_app(252410)
 }
+\seealso{
+\code{\link{get_app_list}} to get a list of app names & id's.
+}
 
