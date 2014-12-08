@@ -36,3 +36,7 @@ ARG_KEY <- "?key="
 #' @export
 #' @name steam_api_args
 ARG_STEAM_IDS <- "&steamids="
+
+#' @export
+#' @name steam_api_args
+ARG_VANITY_URL <- "&vanityurl="

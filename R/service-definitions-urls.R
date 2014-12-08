@@ -24,3 +24,7 @@ STEAM_API_GLOBAL_ACHIEVEMENT <- "http://api.steampowered.com/ISteamUserStats/Get
 #' @export
 #' @name steam_api_service_definitions
 STEAM_API_PLAYER_SUMMARIES <- "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_RESOLVE_VANITY_URL <- "http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/"
