@@ -28,3 +28,11 @@ ARG_COUNT <- "&count="
 #' @export
 #' @name steam_api_args
 ARG_FORMAT <- "&format=JSON"
+
+#' @export
+#' @name steam_api_args
+ARG_KEY <- "?key="
+
+#' @export
+#' @name steam_api_args
+ARG_STEAM_IDS <- "&steamids="

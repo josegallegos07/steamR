@@ -4,6 +4,7 @@
 \alias{STEAM_API_APP_LIST}
 \alias{STEAM_API_GLOBAL_ACHIEVEMENT}
 \alias{STEAM_API_NEWS}
+\alias{STEAM_API_PLAYER_SUMMARIES}
 \alias{steam_api_service_definitions}
 \title{Steam Web API service definition constants}
 \format{a character string}
@@ -16,6 +17,8 @@ STEAM_API_APP_LIST
 STEAM_API_NEWS
 
 STEAM_API_GLOBAL_ACHIEVEMENT
+
+STEAM_API_PLAYER_SUMMARIES
 }
 \description{
 Service definition constants for Steam Web API.

@@ -5,7 +5,9 @@
 \alias{ARG_COUNT}
 \alias{ARG_FORMAT}
 \alias{ARG_GAME_ID}
+\alias{ARG_KEY}
 \alias{ARG_MAX_LENGTH}
+\alias{ARG_STEAM_IDS}
 \alias{steam_api_args}
 \title{Steam Web API service definition argument constants}
 \format{a character string}
@@ -22,6 +24,10 @@ ARG_MAX_LENGTH
 ARG_COUNT
 
 ARG_FORMAT
+
+ARG_KEY
+
+ARG_STEAM_IDS
 }
 \description{
 Service definition argument constants for Steam Web API

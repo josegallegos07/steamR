@@ -9,7 +9,6 @@
 #'   argument constants.
 NULL
 
-
 #' @export
 #' @name steam_api_service_definitions
 STEAM_API_APP_LIST <- "http://api.steampowered.com/ISteamApps/GetAppList/v2/"
@@ -21,3 +20,7 @@ STEAM_API_NEWS <- "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/"
 #' @export
 #' @name steam_api_service_definitions
 STEAM_API_GLOBAL_ACHIEVEMENT <- "http://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v0002/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_API_PLAYER_SUMMARIES <- "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/"
