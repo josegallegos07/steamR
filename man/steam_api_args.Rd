@@ -8,6 +8,7 @@
 \alias{ARG_KEY}
 \alias{ARG_MAX_LENGTH}
 \alias{ARG_STEAM_IDS}
+\alias{ARG_VANITY_URL}
 \alias{steam_api_args}
 \title{Steam Web API service definition argument constants}
 \format{a character string}
@@ -28,6 +29,8 @@ ARG_FORMAT
 ARG_KEY
 
 ARG_STEAM_IDS
+
+ARG_VANITY_URL
 }
 \description{
 Service definition argument constants for Steam Web API
