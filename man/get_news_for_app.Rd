@@ -16,14 +16,22 @@ Returns all news entries if unspecified.}
 }
 \value{
 The latest news of a game specified by its AppID.
-
-Each item in the resulting list contains: a gid, a title, a url,
-a shortened excerpt of the contents (to \code{max_length} characters),
-terminated by "..." if longer than \code{max_length}, a feed label
-a UNIX timestamp date, an author, and the feedname.
 }
 \description{
 Get the latest news for an app.
+}
+\section{Returns}{
+
+Each item in the resulting list contains:
+\describe{
+  \item{gid}{The news entry's id}
+  \item{title}{The news entry's title}
+  \item{url}{The news entry's url}
+  \item{author}{The news entry's author}
+  \item{contents}{A shortened excerpt of the contents (to \code{max_length} characters),
+     terminated by "..." if longer than \code{max_length}.}
+  \item{date}{A UNIX timestamp}
+}
 }
 \examples{
 # get the most recent The Binding of Isaac: Rebirth news post
