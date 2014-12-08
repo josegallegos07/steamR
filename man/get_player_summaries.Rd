@@ -3,13 +3,13 @@
 \alias{get_player_summaries}
 \title{Get Player Summaries}
 \usage{
-get_player_summaries(steam_key, steam_ids = c())
+get_player_summaries(steam_key, steam64_ids = c())
 }
 \arguments{
 \item{steam_key}{a Steam Web API Key.
 Get a key at \url{http://steamcommunity.com/dev/apikey}}
 
-\item{steam_ids}{a vector of Steam ID's.
+\item{steam64_ids}{a vector of 64-bit Steam ID's.
   Up to 100 Steam IDs can be requested.}
 }
 \value{
@@ -20,6 +20,6 @@ if the user has their profile visibility set to "Friends Only"
 or "Private". In that case, only public data will be returned.
 }
 \description{
-Get basic profile information for a list of Steam ID's.
+Get basic profile information for a list of 64-bit Steam ID's.
 }
 
