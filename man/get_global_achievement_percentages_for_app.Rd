@@ -10,12 +10,17 @@ get_global_achievement_percentages_for_app(app_id)
 }
 \value{
 The latest global achievement percentages for an app.
-
-Each item in the resulting list contains the achievement name
-   and the percentage.
 }
 \description{
 Get the global achievement percentages for an app.
+}
+\section{Returns}{
+
+Each item in the resulting list contains:
+\describe{
+  \item{name}{The achievement's internal name}
+  \item{percent}{The percentage of user's who have completed the achievement}
+}
 }
 \examples{
 # get global achievement percentages for Super Meat Boy

@@ -7,8 +7,12 @@
 #'
 #' @return The latest global achievement percentages for an app.
 #'
-#' Each item in the resulting list contains the achievement name
-#'    and the percentage.
+#' @section Returns:
+#' Each item in the resulting list contains:
+#' \describe{
+#'   \item{name}{The achievement's internal name}
+#'   \item{percent}{The percentage of user's who have completed the achievement}
+#' }
 #'
 #' @examples
 #'
