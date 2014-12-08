@@ -13,5 +13,5 @@ Imports:
     RJSONIO
 Suggests:
     testthat
-License: file LICENSE
+License: MIT + file LICENSE
 LazyData: true
