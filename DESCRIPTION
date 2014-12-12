@@ -26,3 +26,4 @@ Collate:
     'get-steam-id-64.R'
     'get-player-summaries.R'
     'get-friend-list.R'
+    'get-player-achievements.R'

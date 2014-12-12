@@ -1,0 +1,25 @@
+#' Get a Player's Achievements
+#'
+#' Returns a list of achievements for a user by AppID. 
+#'
+#' @export
+#' @param steam_key a Steam Web API Key.
+#' @param steam64_id A 64-bit SteamID to return friend list for.
+#' @param app_id The app's AppID.
+#' @return A list of achievements for a user by AppID.
+#'
+#' @section Returns:
+#' Each item in the resulting list contains:
+#' \describe{
+#'   \item{apiname}{The API name of the achievement}
+#'   \item{achieved}{Whether or not the achievement has been completed}
+#' }
+#' @seealso \url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+
+get_player_achievements <- function(steam_key, steam64_id, app_id) {
+  # the appid argument not consistent with the static definition used in other methods
+  args = paste0(ARG_KEY, steam_key, "&appid=", app_id, ARG_STEAM_ID, steam64_id)
+  url = paste0(STEAM_FRIENDS_ACHIEVEMENTS, args)
+  json = get_json(url)
+  return (json$playerstats$achievements)
+}
