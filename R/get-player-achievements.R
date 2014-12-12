@@ -32,9 +32,7 @@ get_player_achievements <- function(steam_key, steam64_id, app_id) {
 #' Returns a list of achievements for a user by AppID. 
 #'
 #' @export
-#' @param steam_key a Steam Web API Key.
-#' @param steam64_id A 64-bit SteamID to return friend list for.
-#' @param app_id The app's AppID.
+#' @inheritParams get_player_achievements
 #' @return A list of achievements for a user by AppID.
 #'
 #' @section Returns:
