@@ -15,3 +15,14 @@ Suggests:
     testthat
 License: MIT + file LICENSE
 LazyData: true
+Collate:
+    'steamR.R'
+    'get-json.R'
+    'service-definitions-urls.r'
+    'service-definitions-args.r'
+    'get-app-list.R'
+    'get-news-for-app.r'
+    'get-global-achievement-percentages-for-app.r'
+    'get-steam-id-64.r'
+    'get-player-summaries.R'
+    'get-griend-list'
