@@ -27,6 +27,7 @@ Each item in the resulting list contains:
 }
 }
 \seealso{
-\url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+\code{\link{get_player_achievements}},
+  \url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
 }
 
