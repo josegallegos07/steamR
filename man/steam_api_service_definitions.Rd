@@ -8,6 +8,7 @@
 \alias{STEAM_FRIENDS_ACHIEVEMENTS}
 \alias{STEAM_FRIENDS_LIST}
 \alias{STEAM_RESOLVE_VANITY_URL}
+\alias{STEAM_USER_STATS}
 \alias{steam_api_service_definitions}
 \title{Steam Web API service definition constants}
 \format{a character string}
@@ -28,6 +29,8 @@ STEAM_RESOLVE_VANITY_URL
 STEAM_FRIENDS_LIST
 
 STEAM_FRIENDS_ACHIEVEMENTS
+
+STEAM_USER_STATS
 }
 \description{
 Service definition constants for Steam Web API.

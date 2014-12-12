@@ -36,3 +36,7 @@ STEAM_FRIENDS_LIST <- "http://api.steampowered.com/ISteamUser/GetFriendList/v000
 #' @export
 #' @name steam_api_service_definitions
 STEAM_FRIENDS_ACHIEVEMENTS <- "http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_USER_STATS <- "http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/"
