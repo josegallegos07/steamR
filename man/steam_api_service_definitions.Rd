@@ -5,6 +5,7 @@
 \alias{STEAM_API_GLOBAL_ACHIEVEMENT}
 \alias{STEAM_API_NEWS}
 \alias{STEAM_API_PLAYER_SUMMARIES}
+\alias{STEAM_FRIENDS_LIST}
 \alias{STEAM_RESOLVE_VANITY_URL}
 \alias{steam_api_service_definitions}
 \title{Steam Web API service definition constants}
@@ -22,6 +23,8 @@ STEAM_API_GLOBAL_ACHIEVEMENT
 STEAM_API_PLAYER_SUMMARIES
 
 STEAM_RESOLVE_VANITY_URL
+
+STEAM_FRIENDS_LIST
 }
 \description{
 Service definition constants for Steam Web API.

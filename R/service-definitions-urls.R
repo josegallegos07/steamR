@@ -28,3 +28,7 @@ STEAM_API_PLAYER_SUMMARIES <- "http://api.steampowered.com/ISteamUser/GetPlayerS
 #' @export
 #' @name steam_api_service_definitions
 STEAM_RESOLVE_VANITY_URL <- "http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_FRIENDS_LIST <- "http://api.steampowered.com/ISteamUser/GetFriendList/v0001/"

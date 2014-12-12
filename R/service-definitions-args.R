@@ -39,4 +39,12 @@ ARG_STEAM_IDS <- "&steamids="
 
 #' @export
 #' @name steam_api_args
+ARG_STEAM_ID <- "&steamid="
+
+#' @export
+#' @name steam_api_args
+ARG_RELATIONSHIP <- "&relationship="
+
+#' @export
+#' @name steam_api_args
 ARG_VANITY_URL <- "&vanityurl="

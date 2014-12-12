@@ -7,6 +7,8 @@
 \alias{ARG_GAME_ID}
 \alias{ARG_KEY}
 \alias{ARG_MAX_LENGTH}
+\alias{ARG_RELATIONSHIP}
+\alias{ARG_STEAM_ID}
 \alias{ARG_STEAM_IDS}
 \alias{ARG_VANITY_URL}
 \alias{steam_api_args}
@@ -29,6 +31,10 @@ ARG_FORMAT
 ARG_KEY
 
 ARG_STEAM_IDS
+
+ARG_STEAM_ID
+
+ARG_RELATIONSHIP
 
 ARG_VANITY_URL
 }
