@@ -29,4 +29,7 @@ Each item in the resulting list contains:
      when the relationship was created}
 }
 }
+\seealso{
+\url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+}
 

@@ -13,4 +13,7 @@ This package provides a wrapper for Steam's Web API.
 \author{
 Jose Gallegos, \email{josegallegos07@gmail.com}
 }
+\seealso{
+\url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+}
 
