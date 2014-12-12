@@ -6,8 +6,7 @@
 get_steam_id_64(steam_key, steam_id)
 }
 \arguments{
-\item{steam_key}{a Steam Web API Key.
-Get a key at \url{http://steamcommunity.com/dev/apikey}.}
+\item{steam_key}{a Steam Web API Key.}
 
 \item{steam_id}{a Steam ID}
 }

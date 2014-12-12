@@ -1,8 +1,7 @@
 #' Get a 64-bit Steam ID
 #'
 #' @export
-#' @param steam_key a Steam Web API Key. 
-#'   Get a key at \url{http://steamcommunity.com/dev/apikey}.
+#' @param steam_key a Steam Web API Key.
 #' @param steam_id a Steam ID
 #'
 #' @return a 64-bit Steam ID

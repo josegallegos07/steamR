@@ -4,9 +4,8 @@
 #'   Steam Community profile visibility is set to "Public". 
 #'
 #' @export
-#' @param steam_key a Steam Web API Key. 
-#'   Get a key at \url{http://steamcommunity.com/dev/apikey}.
-#' @param steam64_id A 64 bit Steam ID to return friend list for.
+#' @param steam_key a Steam Web API Key.
+#' @param steam64_id A 64-bit SteamID to return friend list for.
 #' @param relationship Relationship filter. Possibles values: \code{all}, \code{friend}.
 #' @return A user's friend list 
 #'

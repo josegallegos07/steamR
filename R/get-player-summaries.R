@@ -3,8 +3,7 @@
 #' Get basic profile information for a list of 64-bit Steam ID's.
 #'
 #' @export
-#' @param steam_key a Steam Web API Key. 
-#'   Get a key at \url{http://steamcommunity.com/dev/apikey}.
+#' @param steam_key a Steam Web API Key.
 #' @param steam64_ids a vector of 64-bit Steam ID's.
 #'   Up to 100 Steam IDs can be requested.
 #'
