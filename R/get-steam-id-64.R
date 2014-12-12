@@ -5,7 +5,9 @@
 #' @param steam_id a Steam ID
 #'
 #' @return a 64-bit Steam ID
-#' @seealso \url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+#'
+#' @section Steam Web API Key:
+#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_steam_id_64 <- function(steam_key, steam_id) {
   args = paste0(ARG_KEY, steam_key, ARG_VANITY_URL, steam_id)

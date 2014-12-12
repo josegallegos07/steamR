@@ -63,7 +63,9 @@ Each item in the resulting list contains:
   \item{locstatecode}{If set in the user's Steam Community profile, the user's state of residence.}
 }
 }
-\seealso{
-\url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+
+\section{Steam Web API Key}{
+
+Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 }
 

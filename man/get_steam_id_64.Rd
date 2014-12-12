@@ -16,7 +16,8 @@ a 64-bit Steam ID
 \description{
 Get a 64-bit Steam ID
 }
-\seealso{
-\url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+\section{Steam Web API Key}{
+
+Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 }
 

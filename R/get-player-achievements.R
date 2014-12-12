@@ -14,8 +14,10 @@
 #'   \item{apiname}{The API name of the achievement}
 #'   \item{achieved}{Whether or not the achievement has been completed}
 #' }
-#' @seealso \code{\link{get_user_stats_for_game}}, 
-#'   \url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key
+#' @section Steam Web API Key:
+#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
+#'
+#' @seealso \code{\link{get_user_stats_for_game}}
 
 get_player_achievements <- function(steam_key, steam64_id, app_id) {
   # the appid argument not consistent with the static definition used in other methods
@@ -41,8 +43,10 @@ get_player_achievements <- function(steam_key, steam64_id, app_id) {
 #'   \item{apiname}{The API name of the achievement}
 #'   \item{achieved}{Whether or not the achievement has been completed}
 #' }
-#' @seealso \code{\link{get_player_achievements}}, 
-#'   \url{http://steamcommunity.com/dev/apikey} to get a Steam Web API Key.
+#' @section Steam Web API Key:
+#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
+#'
+#' @seealso \code{\link{get_player_achievements}}
 
 get_user_stats_for_game <- function(steam_key, steam64_id, app_id) {
   # the appid argument not consistent with the static definition used in other methods
