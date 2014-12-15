@@ -3,7 +3,7 @@
 #' Returns a list of achievements for a user by AppID. 
 #'
 #' @export
-#' @param steam_key a Steam Web API Key.
+#' @param steam_key A Steam Web API Key.
 #' @param steam64_id A 64-bit SteamID to return friend list for.
 #' @param app_id The app's AppID.
 #' @return A list of achievements for a user by AppID.

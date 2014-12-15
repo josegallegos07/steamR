@@ -6,9 +6,9 @@
 get_player_summaries(steam_key, steam64_ids = c())
 }
 \arguments{
-\item{steam_key}{a Steam Web API Key.}
+\item{steam_key}{A Steam Web API Key.}
 
-\item{steam64_ids}{a vector of 64-bit Steam ID's.
+\item{steam64_ids}{A vector of 64-bit Steam ID's.
   Up to 100 Steam IDs can be requested.}
 }
 \value{

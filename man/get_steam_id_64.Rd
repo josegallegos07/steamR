@@ -6,9 +6,9 @@
 get_steam_id_64(steam_key, steam_id)
 }
 \arguments{
-\item{steam_key}{a Steam Web API Key.}
+\item{steam_key}{A Steam Web API Key.}
 
-\item{steam_id}{a Steam ID}
+\item{steam_id}{A Steam ID}
 }
 \value{
 a 64-bit Steam ID

@@ -6,7 +6,7 @@
 get_friend_list(steam_key, steam64_id, relationship)
 }
 \arguments{
-\item{steam_key}{a Steam Web API Key.}
+\item{steam_key}{A Steam Web API Key.}
 
 \item{steam64_id}{A 64-bit SteamID to return friend list for.}
 

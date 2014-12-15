@@ -6,7 +6,7 @@
 get_user_stats_for_game(steam_key, steam64_id, app_id)
 }
 \arguments{
-\item{steam_key}{a Steam Web API Key.}
+\item{steam_key}{A Steam Web API Key.}
 
 \item{steam64_id}{A 64-bit SteamID to return friend list for.}
 

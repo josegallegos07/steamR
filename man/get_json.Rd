@@ -6,7 +6,7 @@
 get_json(url)
 }
 \arguments{
-\item{url}{a string giving the URL}
+\item{url}{A string giving the URL}
 }
 \value{
 An R object created by mapping the JSON content

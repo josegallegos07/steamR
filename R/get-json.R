@@ -3,7 +3,7 @@
 #' Get JSON-encoded data from a URL
 #'
 #' @export
-#' @param url a string giving the URL
+#' @param url A string giving the URL
 #'
 #' @return An R object created by mapping the JSON content 
 #'   from the given URL to its R equivalent.

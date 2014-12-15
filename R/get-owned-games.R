@@ -34,12 +34,12 @@
 #' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_owned_games <- function(steam_key, steam64_id, include_appinfo = TRUE, include_played_free_games = FALSE) {
-  if (include_appinfo){
+  if (include_appinfo) {
   	appinfo = paste0(ARG_INCLUDE_APP_INFO, 1)
   } else {
   	appinfo = paste0(ARG_INCLUDE_APP_INFO, 0)
   }
-  if (include_played_free_games){
+  if (include_played_free_games) {
   	freegames = paste0(ARG_INCLUDE_FREE_GAMES_INFO, 1)
   } else {
   	freegames = paste0(ARG_INCLUDE_FREE_GAMES_INFO, 0)
