@@ -10,7 +10,7 @@ The ultimate aim of `steamR` is to allow access to the all juicy data available 
 
 ### Development Version
 
-Install the latest stable development version from github using [devtools](https://github.com/hadley/devtools):
+Install the development version from github using [devtools](https://github.com/hadley/devtools):
 
 ### 
      devtools::install_github("josegallegos07/steamR")
@@ -23,3 +23,4 @@ TBD.
 
 1. Usage examples  
 2. All interfaces & methods that require a `Steam Web API Key`
+3. Tests
