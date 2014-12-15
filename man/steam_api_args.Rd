@@ -5,6 +5,8 @@
 \alias{ARG_COUNT}
 \alias{ARG_FORMAT}
 \alias{ARG_GAME_ID}
+\alias{ARG_INCLUDE_APP_INFO}
+\alias{ARG_INCLUDE_FREE_GAMES_INFO}
 \alias{ARG_KEY}
 \alias{ARG_MAX_LENGTH}
 \alias{ARG_RELATIONSHIP}
@@ -37,6 +39,10 @@ ARG_STEAM_ID
 ARG_RELATIONSHIP
 
 ARG_VANITY_URL
+
+ARG_INCLUDE_APP_INFO
+
+ARG_INCLUDE_FREE_GAMES_INFO
 }
 \description{
 Service definition argument constants for Steam Web API

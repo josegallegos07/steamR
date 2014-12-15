@@ -48,3 +48,11 @@ ARG_RELATIONSHIP <- "&relationship="
 #' @export
 #' @name steam_api_args
 ARG_VANITY_URL <- "&vanityurl="
+
+#' @export
+#' @name steam_api_args
+ARG_INCLUDE_APP_INFO <- "&include_appinfo="
+
+#' @export
+#' @name steam_api_args
+ARG_INCLUDE_FREE_GAMES_INFO <- "&include_played_free_games="

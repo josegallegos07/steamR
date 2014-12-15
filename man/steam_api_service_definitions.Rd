@@ -7,6 +7,7 @@
 \alias{STEAM_API_PLAYER_SUMMARIES}
 \alias{STEAM_FRIENDS_ACHIEVEMENTS}
 \alias{STEAM_FRIENDS_LIST}
+\alias{STEAM_GET_OWNED_GAMES}
 \alias{STEAM_RESOLVE_VANITY_URL}
 \alias{STEAM_USER_STATS}
 \alias{steam_api_service_definitions}
@@ -31,6 +32,8 @@ STEAM_FRIENDS_LIST
 STEAM_FRIENDS_ACHIEVEMENTS
 
 STEAM_USER_STATS
+
+STEAM_GET_OWNED_GAMES
 }
 \description{
 Service definition constants for Steam Web API.

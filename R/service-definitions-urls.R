@@ -40,3 +40,7 @@ STEAM_FRIENDS_ACHIEVEMENTS <- "http://api.steampowered.com/ISteamUserStats/GetPl
 #' @export
 #' @name steam_api_service_definitions
 STEAM_USER_STATS <- "http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_GET_OWNED_GAMES <- "http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/"
