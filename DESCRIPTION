@@ -12,7 +12,8 @@ Imports:
     RCurl,
     RJSONIO
 Suggests:
-    testthat
+    testthat,
+    secure
 License: MIT + file LICENSE
 LazyData: true
 Collate:
