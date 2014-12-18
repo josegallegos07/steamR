@@ -57,7 +57,7 @@
 #' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_player_summaries <- function(steam_key, steam64_ids = c()) {
-  ids = paste(steam64_ids, sep = ",")
+  ids = gsub(" ", "", toString(steam64_ids))
   args = paste0(ARG_KEY, steam_key, ARG_STEAM_IDS, ids)
   url = paste0(STEAM_API_PLAYER_SUMMARIES, args)
   json = get_json(url)
