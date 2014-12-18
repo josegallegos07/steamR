@@ -3,6 +3,7 @@
 \docType{data}
 \name{steam_api_args}
 \alias{ARG_APP_ID}
+\alias{ARG_APP_ID_PLAYING}
 \alias{ARG_COUNT}
 \alias{ARG_FORMAT}
 \alias{ARG_GAME_ID}
@@ -46,6 +47,8 @@ ARG_INCLUDE_APP_INFO
 ARG_INCLUDE_FREE_GAMES_INFO
 
 ARG_COUNT
+
+ARG_APP_ID_PLAYING
 }
 \description{
 Service definition argument constants for Steam Web API

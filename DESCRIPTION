@@ -29,3 +29,4 @@ Collate:
     'get-player-achievements.R'
     'get-owned-games.R'
     'get-recently-played-games.R'
+    'is-playing-shared-game.R'

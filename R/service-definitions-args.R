@@ -60,3 +60,7 @@ ARG_INCLUDE_FREE_GAMES_INFO <- "&include_played_free_games="
 #' @export
 #' @name steam_api_args
 ARG_COUNT <- "&count="
+
+#' @export
+#' @name steam_api_args
+ARG_APP_ID_PLAYING <- "&appid_playing="

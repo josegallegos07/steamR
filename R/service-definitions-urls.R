@@ -49,3 +49,6 @@ STEAM_GET_OWNED_GAMES <- "http://api.steampowered.com/IPlayerService/GetOwnedGam
 #' @name steam_api_service_definitions
 STEAM_RECENTLY_PLAYED <- "http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001"
 
+#' @export
+#' @name steam_api_service_definitions
+STEAM_IS_PLAYING_SHARED <- "http://api.steampowered.com/IPlayerService/IsPlayingSharedGame/v0001/"
