@@ -16,7 +16,7 @@ Suggests:
 License: MIT + file LICENSE
 LazyData: true
 Collate:
-    'steamR.R'
+    'steamR-package.R'
     'get-json.R'
     'service-definitions-urls.R'
     'service-definitions-args.R'
