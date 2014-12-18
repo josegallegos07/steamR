@@ -31,3 +31,4 @@ Collate:
     'get-recently-played-games.R'
     'is-playing-shared-game.R'
     'get-schema-for-game.R'
+    'get-player-bans.R'

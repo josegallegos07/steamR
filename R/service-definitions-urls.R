@@ -55,4 +55,8 @@ STEAM_IS_PLAYING_SHARED <- "http://api.steampowered.com/IPlayerService/IsPlaying
 
 #' @export
 #' @name steam_api_service_definitions
-STEAM_GAME_SCHEMA<- "http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/"
+STEAM_GAME_SCHEMA <- "http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_PLAYER_BANS <- "http://api.steampowered.com/ISteamUser/GetPlayerBans/v1/"
