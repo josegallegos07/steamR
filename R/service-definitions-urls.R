@@ -52,3 +52,7 @@ STEAM_RECENTLY_PLAYED <- "http://api.steampowered.com/IPlayerService/GetRecently
 #' @export
 #' @name steam_api_service_definitions
 STEAM_IS_PLAYING_SHARED <- "http://api.steampowered.com/IPlayerService/IsPlayingSharedGame/v0001/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_GAME_SCHEMA<- "http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/"
