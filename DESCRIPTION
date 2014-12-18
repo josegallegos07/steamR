@@ -28,3 +28,4 @@ Collate:
     'get-friend-list.R'
     'get-player-achievements.R'
     'get-owned-games.R'
+    'get-recently-played-games.R'

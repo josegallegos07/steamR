@@ -44,6 +44,8 @@ ARG_VANITY_URL
 ARG_INCLUDE_APP_INFO
 
 ARG_INCLUDE_FREE_GAMES_INFO
+
+ARG_COUNT
 }
 \description{
 Service definition argument constants for Steam Web API

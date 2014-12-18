@@ -44,3 +44,8 @@ STEAM_USER_STATS <- "http://api.steampowered.com/ISteamUserStats/GetUserStatsFor
 #' @export
 #' @name steam_api_service_definitions
 STEAM_GET_OWNED_GAMES <- "http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/"
+
+#' @export
+#' @name steam_api_service_definitions
+STEAM_RECENTLY_PLAYED <- "http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001"
+
