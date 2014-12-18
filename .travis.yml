@@ -9,6 +9,7 @@ before_install:
 
 install:
   - ./travis-tool.sh github_package hadley/testthat
+  - ./travis-tool.sh github_package s-u/PKI
   - ./travis-tool.sh install_deps
 
 script: ./travis-tool.sh run_tests
