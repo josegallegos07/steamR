@@ -8,16 +8,8 @@ get_env <- function (var) {
 }
 
 key <- function () {
-  return (get_env("x9v6vG4siUWdtRiljCQLQRXD5qLrCNoTwNGKcoRizApWQUjMZ2ADRNuluUettKt8")) 
+  return (get_env("STEAM_KEY")) 
 }
-
-test <- function() {
-  return (get_env("TEST")) 
-}
-
-test_that("can access env variable from travis", {
-  expect_equal(nchar(test()), 4)
-})
 
 test_that("can access key from travis", {
   expect_equal(nchar(key()), 32)
