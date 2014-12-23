@@ -3,10 +3,21 @@ library(steamR)
 
 context("credentials")
 
-key <- function () {
-  key = base64enc::base64decode(Sys.getenv("STEAM_KEY"))
-  return (as.character(key)) 
+get_env <- function (var) {
+  return (as.character(Sys.getenv(var)))
 }
+
+key <- function () {
+  return (get_env("STEAM_KEY")) 
+}
+
+test <- function() {
+  return (get_env("TEST")) 
+}
+
+test_that("can access test variable from travis", {
+  expect_equal(nchar(test()), 4)
+})
 
 test_that("can access key from travis", {
   expect_equal(nchar(key()), 32)
