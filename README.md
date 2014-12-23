@@ -41,18 +41,18 @@ Methods to get you started:
 
 <table style="width:100%" class="table">
   <tr>
-    <th style="width:25%; text-align:left">method</th>
-    <th style="width:75%; text-align:left">description</th>  
+    <th style="width:30%; text-align:left">method</th>
+    <th style="width:70%; text-align:left">description</th>  
   </tr>
   <tr>
-    <td>?get_app_list</td> 
+    <td>get_app_list</td> 
     <td>
       Returns an exhaustive list containing the 
       name and id of every program available in the Steam store.
    </td> 
   </tr>
   <tr>
-    <td>?get_steam_id_64</td> 
+    <td>get_steam_id_64</td> 
     <td>
       Returns a user's 64-bit Steam ID.
    </td> 
