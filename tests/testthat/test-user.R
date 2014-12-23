@@ -24,3 +24,8 @@ test_that("can get owned games for user", {
   games = get_owned_games(STEAM_KEY, EARTHR0T69)
   expect_more_than(length(games), 0)
 })
+
+test_that("can get recently played games for user", {
+  games = get_recently_played_games(STEAM_KEY, EARTHR0T69)
+  expect_more_than(length(games), 0)
+})
