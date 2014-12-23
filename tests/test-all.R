@@ -11,6 +11,11 @@ key <- function () {
   return (get_env("STEAM_KEY")) 
 }
 
+# globals
+STEAM_KEY <- key()
+REBIRTH <- "250900"
+STEAMWORLD <- "252410"
+
 test_that("can access key from travis", {
   expect_equal(nchar(key()), 32)
 })
