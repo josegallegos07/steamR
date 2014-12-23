@@ -8,7 +8,7 @@ get_env <- function (var) {
 }
 
 key <- function () {
-  return (get_env("STEAM_KEY")) 
+  return (get_env("x9v6vG4siUWdtRiljCQLQRXD5qLrCNoTwNGKcoRizApWQUjMZ2ADRNuluUettKt8")) 
 }
 
 test <- function() {
