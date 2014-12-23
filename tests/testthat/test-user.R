@@ -19,3 +19,8 @@ test_that("can get user stats for game", {
   stats = get_user_stats_for_game(STEAM_KEY, EARTHR0T69, REBIRTH)
   expect_more_than(length(stats), 0)
 })
+
+test_that("can get owned games for user", {
+  games = get_owned_games(STEAM_KEY, EARTHR0T69)
+  expect_more_than(length(games), 0)
+})
