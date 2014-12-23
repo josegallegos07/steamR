@@ -15,7 +15,7 @@ test <- function() {
   return (get_env("TEST")) 
 }
 
-test_that("can access test variable from travis", {
+test_that("can access env variable from travis", {
   expect_equal(nchar(test()), 4)
 })
 
