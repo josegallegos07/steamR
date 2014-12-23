@@ -11,6 +11,11 @@ An interface to Steam's Web API.
 \details{
 This package provides a wrapper for Steam's Web API.
 }
+\section{Methods}{
+
+See \code{\link{steamR_methods}} for a list of methods available in the steamR package.
+}
+
 \section{Steam Web API Key}{
 
 All use of the Steam Web API requires the use of an API Key.

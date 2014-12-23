@@ -6,6 +6,10 @@
 #' @name steamR
 #' @title steamR
 #' @author Jose Gallegos, \email{josegallegos07@@gmail.com}
+#'
+#' @section Methods:
+#' See \code{\link{steamR_methods}} for a list of methods available in the steamR package.
+#'
 #' @section Steam Web API Key:
 #' All use of the Steam Web API requires the use of an API Key.
 #'
@@ -17,3 +21,15 @@
 #' @section Steam Web API Documentation:
 #' Documentation for Steam's Web API can be found \href{https://developer.valvesoftware.com/wiki/Steam_Web_API}{here}.
 NULL
+
+#' Methods
+#'
+#' Returns a list of available steamR methods. 
+#'
+#' @export
+#' @return A list of methods available in the steamR package.
+
+steamR_methods <- function ()
+{
+  lsf.str("package:steamR")
+}
