@@ -1,8 +1,13 @@
 library(testthat)
 library(steamR)
 
-STEAM_KEY <- Sys.getenv("STEAM_KEY")
+context("credentials")
 
-nchar(STEAM_KEY)
+test_that("can access key from travis", {
+
+  key = Sys.getenv("STEAM_KEY")
+  expect_equal(nchar(key), 32)
+
+})
 
 test_check("steamR")
