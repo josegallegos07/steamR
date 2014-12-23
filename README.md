@@ -28,7 +28,3 @@ Use of Steam's APIs requires that you agree to the [Steam API Terms of Use](http
 All requests require a Steam Web API Key. You can get a key [here](http://steamcommunity.com/dev/apikey).
 
 **Please do not share your key as it identifies you when you make requests.**
-
-## TODO
-
-1. Tests
