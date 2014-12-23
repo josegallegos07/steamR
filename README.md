@@ -58,3 +58,7 @@ Methods to get you started:
    </td> 
   </tr>
 </table>
+
+## Bugs & Feature Requests
+
+Open [a new issue](https://github.com/josegallegos07/steamR/issues) if you want to report a bug or request a new (or missing) feature.
