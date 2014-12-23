@@ -19,7 +19,7 @@ REBIRTH <- "250900"
 STEAMWORLD <- "252410"
 
 # steam64 id's
-E6964 <- "76561198067161637"
+EARTHR0T69 <- "76561198067161637"
 
 test_that("can access key from travis", {
   expect_equal(nchar(STEAM_KEY), 32)
