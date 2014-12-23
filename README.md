@@ -29,6 +29,32 @@ All requests require a Steam Web API Key. You can get a key [here](http://steamc
 
 **Please do not share your key as it identifies you when you make requests.**
 
-### steamR
+### Available Methods
 
-See `steamR_methods()` for a list of available methods.
+An exhaustive list of available methods:
+### 
+     steamR_methods()
+
+### Getting Started
+
+Methods to get you started:
+
+<table style="width:100%" class="table">
+  <tr>
+    <th style="width:25%; text-align:left">method</th>
+    <th style="width:75%; text-align:left">description</th>  
+  </tr>
+  <tr>
+    <td>?get_app_list</td> 
+    <td>
+      Returns an exhaustive list containing the 
+      name and id of every program available in the Steam store.
+   </td> 
+  </tr>
+  <tr>
+    <td>?get_steam_id_64</td> 
+    <td>
+      Returns a user's 64-bit Steam ID.
+   </td> 
+  </tr>
+</table>
