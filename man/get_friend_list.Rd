@@ -31,8 +31,3 @@ Each item in the resulting list contains:
 }
 }
 
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}.
-}
-

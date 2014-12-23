@@ -30,8 +30,6 @@
 #'   \item{has_community_visible_stats}{Whether the program has stats accessible 
 #'      via \code{\link{get_user_stats_for_game}}}
 #' }
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_owned_games <- function(steam_key, steam64_id, include_appinfo = TRUE, include_played_free_games = FALSE) {
   if (include_appinfo) {

@@ -17,9 +17,6 @@
 #' @param app_id The app's AppID.
 #' @return The game's schema (name, version, available achivements & stats)
 #'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-#'
 #' @seealso \code{\link{get_schema_name}}, \code{\link{get_schema_version}}, 
 #'   \code{\link{get_schema_achievements}}, \code{\link{get_schema_stats}}
 
@@ -38,9 +35,6 @@ get_schema_for_game <- function(steam_key, app_id) {
 #' @inheritParams get_schema_for_game
 #' @return The game's name
 #'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-#'
 #' @seealso \code{\link{get_schema_for_game}}, \code{\link{get_schema_version}}, 
 #'   \code{\link{get_schema_achievements}}, \code{\link{get_schema_stats}}
 
@@ -56,9 +50,6 @@ get_schema_name <- function(steam_key, app_id) {
 #' @export
 #' @inheritParams get_schema_for_game
 #' @return The game's version number
-#'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 #'
 #' @seealso \code{\link{get_schema_for_game}}, \code{\link{get_schema_name}}, 
 #'   \code{\link{get_schema_achievements}}, \code{\link{get_schema_stats}}
@@ -88,9 +79,6 @@ get_schema_version <- function(steam_key, app_id) {
 #'   \item{icongray}{The url for the achievement's "locked" image}
 #' }
 #'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-#'
 #' @seealso \code{\link{get_schema_for_game}}, \code{\link{get_schema_name}}, 
 #'   \code{\link{get_schema_version}}, \code{\link{get_schema_stats}}
 
@@ -114,9 +102,6 @@ get_schema_achievements <- function(steam_key, app_id) {
 #'   \item{defaultvalue}{The default value}
 #'   \item{displayName}{The display name}
 #' }
-#'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 #'
 #' @seealso \code{\link{get_schema_for_game}}, \code{\link{get_schema_name}}, 
 #'   \code{\link{get_schema_version}}, \code{\link{get_schema_achievements}}

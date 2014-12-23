@@ -21,9 +21,6 @@
 #'      If the player has no bans on record the string will be "none", 
 #'      if the player is on probation it will say "probation", etc.}
 #' }
-#'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_player_bans <- function(steam_key, steam64_ids = c()) {
   ids = gsub(" ", "", toString(steam64_ids))

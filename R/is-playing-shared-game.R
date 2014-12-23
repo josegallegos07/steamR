@@ -9,9 +9,6 @@
 #' @param app_id The app's AppID.
 #' @return \code{TRUE} if a borrowing account is currently playing this game. 
 #'   Returns \code{FALSE} if the game is not borrowed or the borrower currently doesn't play this game.
-#'
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 is_playing_shared_game <- function(steam_key, steam64_id, app_id) {
   args = paste0(ARG_KEY, steam_key, ARG_STEAM_ID, steam64_id, ARG_APP_ID_PLAYING, app_id)

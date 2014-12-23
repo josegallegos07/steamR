@@ -30,11 +30,6 @@ Each item in the resulting list contains:
   \item{icongray}{The url for the achievement's "locked" image}
 }
 }
-
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-}
 \seealso{
 \code{\link{get_schema_for_game}}, \code{\link{get_schema_name}},
   \code{\link{get_schema_version}}, \code{\link{get_schema_stats}}

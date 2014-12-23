@@ -21,8 +21,4 @@ is_playing_shared_game(steam_key, steam64_id, app_id)
 Returns \code{TRUE} if a borrowing account is currently playing this game.
 Returns \code{FALSE} if the game is not borrowed or the borrower currently doesn't play this game.
 }
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-}
 

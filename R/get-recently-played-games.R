@@ -25,8 +25,6 @@
 #'      Accessible at \url{http://media.steampowered.com/steamcommunity/public/images/apps/APP_ID/IMG_LOGO_URL.jpg}
 #'      replacing \emph{APP_ID} and \emph{IMG_LOGO_URL} as necessary.}
 #' }
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 #'
 #' @seealso \code{\link{get_user_stats_for_game}}
 

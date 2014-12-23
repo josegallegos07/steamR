@@ -28,10 +28,6 @@ This is a wrapper for:
 
 \code{\link{get_schema_stats}}
 }
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-}
 \seealso{
 \code{\link{get_schema_name}}, \code{\link{get_schema_version}},
   \code{\link{get_schema_achievements}}, \code{\link{get_schema_stats}}

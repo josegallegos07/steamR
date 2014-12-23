@@ -53,8 +53,6 @@
 #'   \item{loccountrycode}{If set in the user's Steam Community profile, the user's country of residence - a 2-character ISO country code.}
 #'   \item{locstatecode}{If set in the user's Steam Community profile, the user's state of residence.}
 #' }
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
 
 get_player_summaries <- function(steam_key, steam64_ids = c()) {
   ids = gsub(" ", "", toString(steam64_ids))

@@ -17,8 +17,6 @@
 #'   \item{friend_since}{UNIX timestamp representing the time 
 #'      when the relationship was created}
 #' }
-#' @section Steam Web API Key:
-#' Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}.
 
 get_friend_list <- function(steam_key, steam64_id, relationship) {
   valid <- c("all", "friend")

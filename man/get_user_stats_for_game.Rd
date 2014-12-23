@@ -27,11 +27,6 @@ Each item in the resulting list contains:
   \item{achieved}{Whether or not the achievement has been completed}
 }
 }
-
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-}
 \seealso{
 \code{\link{get_player_achievements}}
 }

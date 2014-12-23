@@ -17,10 +17,6 @@ The game's version number
 \description{
 Returns The game's version number.
 }
-\section{Steam Web API Key}{
-
-Get a Steam Web API Key at \url{http://steamcommunity.com/dev/apikey}
-}
 \seealso{
 \code{\link{get_schema_for_game}}, \code{\link{get_schema_name}},
   \code{\link{get_schema_achievements}}, \code{\link{get_schema_stats}}
