@@ -17,11 +17,7 @@ after_failure:
   - ./travis-tool.sh dump_logs
 
 env:
-  - global:
-    - WARNINGS_ARE_ERRORS=1
-    - _R_CHECK_FORCE_SUGGESTS_=0
-  - secure: lMtjG8MPD9VBxv3GqMlCCZf6sDPrPBt/SbfRgEnAtXA8n3aV7g/q/v2bQ6L8A1zEpusYfpiQFilQfHmsS8jSv21UdMe4Nu4nUhZxJBweuOpxF6PaiwwZGbGFrWQDOUH2MMZRJqceeE+mm5iSLrD/tlUTGFIDA8FHPWemz7JQ1Fw=
-
+  - WARNINGS_ARE_ERRORS=1
 
 notifications:
   email:
