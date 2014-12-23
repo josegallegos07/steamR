@@ -17,7 +17,7 @@ REBIRTH <- "250900"
 STEAMWORLD <- "252410"
 
 test_that("can access key from travis", {
-  expect_equal(nchar(key()), 32)
+  expect_equal(nchar(STEAM_KEY), 32)
 })
 
 test_check("steamR")
