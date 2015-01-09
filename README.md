@@ -8,16 +8,13 @@ The ultimate aim of `steamR` is to allow access to the all juicy data available 
 
 ## Installation
 
-### Development Version
+`steamR` is currently only available on github.
 
 Install the development version from github using [devtools](https://github.com/hadley/devtools):
 
 ### 
-     devtools::install_github("josegallegos07/steamR")
-
-### CRAN
-
-TBD.
+     # install.packages("devtools")
+     install_github("josegallegos07/steamR")
 
 ## Usage
 
