@@ -1,4 +1,4 @@
-# sample script showing my Binding of Isaac: Rebirth achievements relative to other players
+# sample script a user's Binding of Isaac: Rebirth achievements & missing achievements
 
 rm(list = ls())
 
@@ -12,7 +12,7 @@ rebirth_schema = get_schema_achievements(STEAM_KEY, rebirth_id)
 global_achv = get_global_achievement_percentages_for_app(rebirth_id)
 my_achv = get_player_achievements(STEAM_KEY, my_id, rebirth_id)
 
-# achievements to global
+# achievements relative to global
 relative_achv = sapply(rebirth_schema, function(x) {
   return(unlist(c(x$name, x$displayName)))
 })
