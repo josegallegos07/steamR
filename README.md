@@ -12,7 +12,7 @@ The ultimate aim of `steamR` is to allow access to the all juicy data available 
 
 Install the development version from github using [devtools](https://github.com/hadley/devtools):
 
-### 
+###
      # install.packages("devtools")
      install_github("josegallegos07/steamR")
 
@@ -29,7 +29,7 @@ All requests require a Steam Web API Key. You can get a key [here](http://steamc
 ### Available Methods
 
 An exhaustive list of available methods:
-### 
+###
      steamR_methods()
 
 ### Getting Started
@@ -42,19 +42,23 @@ Methods to get you started:
     <th style="width:70%; text-align:left">description</th>  
   </tr>
   <tr>
-    <td>get_app_list</td> 
+    <td>get_app_list</td>
     <td>
-      Returns an exhaustive list containing the 
+      Returns an exhaustive list containing the
       name and id of every program available in the Steam store.
-   </td> 
+   </td>
   </tr>
   <tr>
-    <td>get_steam_id_64</td> 
+    <td>get_steam_id_64</td>
     <td>
       Returns a user's 64-bit Steam ID.
-   </td> 
+   </td>
   </tr>
 </table>
+
+### Examples
+
+See [examples](examples/).
 
 ## Bugs & Feature Requests
 
