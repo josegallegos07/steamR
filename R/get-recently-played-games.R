@@ -37,5 +37,9 @@ get_recently_played_games <- function(steam_key, steam64_id, count) {
   args = paste0(ARG_KEY, steam_key, ARG_STEAM_ID, steam64_id, count)
   url = paste0(STEAM_RECENTLY_PLAYED, args)
   json = get_json(url)
-  return (json$response$games)
+  if ("games" %in% names(json$response)) {
+    return (json$response$games)
+  } else {
+    return (c())
+  }
 }
