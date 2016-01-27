@@ -6,16 +6,16 @@ Version: 1.0.0
 Authors@R: 'Jose Gallegos <josegallegos07@gmail.com> [aut,cre]'
 URL: https://github.com/josegallegos07/steamR
 BugReports: https://github.com/josegallegos07/steamR/issues
-Depends: 
+Depends:
     R (>= 3.0.0)
-Imports: 
+Imports:
     RCurl,
     RJSONIO
-Suggests: 
+Suggests:
     testthat
 License: MIT + file LICENSE
 LazyData: true
-Collate: 
+Collate:
     'steamR-package.R'
     'get-json.R'
     'service-definitions-urls.R'
@@ -32,3 +32,4 @@ Collate:
     'is-playing-shared-game.R'
     'get-schema-for-game.R'
     'get-player-bans.R'
+RoxygenNote: 5.0.0
