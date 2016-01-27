@@ -20,6 +20,7 @@ STEAMWORLD <- "252410"
 
 # steam64 id's
 EARTHR0T69 <- "76561198067161637"
+DEMO <- "76561197960434622"
 
 if (STEAM_KEY != "") {
   # only run tests if we have a valid STEAM_KEY
